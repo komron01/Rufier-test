@@ -3,7 +3,7 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QVBoxLayout, QHBoxLayout, QLineEdit
 
 from instr import *
-
+# здесь лучше сначала добавить print()
 class MainWin(QWidget):
     def __init__(self):
         super().__init__()
